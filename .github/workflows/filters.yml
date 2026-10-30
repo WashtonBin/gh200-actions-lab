@@ -2,11 +2,11 @@ name: Filters
 
 on:
   workflow_dispatch:
-  push:
-   branches:
-     - main
-     - "release/**"
-     - "!release/**-alpha"
+  # push:
+  #  branches:
+  #    - main
+  #    - "release/**"
+  #    - "!release/**-alpha"
    tags:
      - "v*"
    paths:
