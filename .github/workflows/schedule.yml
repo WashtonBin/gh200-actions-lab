@@ -3,8 +3,7 @@ name: Scheduled
 on:
   schedule:
    - cron: "*/5 * * * *" # every 5 minutes (UTC)
-   - cron: "55 22 * * 1-5" # 09:30, Monday to Friday
-     timezone: 'America/New_York'
+   - cron: "56 22 * * 1-5" # 09:30, Monday to Friday  
   workflow_dispatch:
 
 jobs:
