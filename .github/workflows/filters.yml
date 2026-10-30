@@ -16,4 +16,4 @@ jobs:
   filtered:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Filters matched for $GITHUB_REF" #fix empty filter"
+      - run: echo "Filters matched for $GITHUB_REF" #fix empty filters.yml"
