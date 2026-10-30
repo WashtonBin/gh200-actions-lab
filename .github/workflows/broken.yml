@@ -6,6 +6,8 @@ jobs:
   check:
     runs-on: ubuntu-latest
     steps:
-      - name: Two commands
-        run: echo "one" |
-          echo "two"
+      - name: First step
+        run: echo "first"
+     - name: Second step
+        run: echo "second" 
+          
