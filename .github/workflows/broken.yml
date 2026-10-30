@@ -1,6 +1,6 @@
 name: Broken YAML
 
-on: workflow_dispatch
+on: push
 
 jobs:
   check:
